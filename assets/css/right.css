@@ -1,0 +1,71 @@
+
+/* ASIDE RIGHT  */
+aside.menu-right {
+  position: relative;
+  max-height: 672px;
+
+  /* background: rgb(75, 75, 74); */
+}
+
+div.aside-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  gap: 1.5rem;
+
+  position: fixed;
+  height: 100%;
+}
+
+div.aside-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2.5rem;
+
+  width: 100%;
+
+}
+
+div.aside-user-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+}
+
+div.aside-slogan p {
+  color: var(--text-span);
+}
+
+div.aside-avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: -12px;
+  width: 36px;
+  height: 36px;
+}
+
+div.aside-logo img {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+div.aside-avatar img {
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+}
+
+div.aside-user-info span {
+  color: var(--text-span);
+}
+
+div.aside-link a {
+  text-decoration: none;
+  color: white;
+}

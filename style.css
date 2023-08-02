@@ -1,0 +1,40 @@
+@import './assets/css/left.css';
+@import './assets/css/right.css';
+@import './assets/css/middle.css';
+@import './assets/css/custom.css';
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  --webkit-font-smoothing: antialiased;
+  font-size: 16px;
+  color: white;
+}
+
+:root {
+  --primary: #1029cd;
+  --secondary: #8255e2;
+  --terciary: #3E95EF;
+
+  --text-input: #3284dc;
+  --text-span: #616161;
+
+  --bg-400: #343638;
+  --bg-500: #2e2b2b;
+  --bg-600: #1E1E1E;
+}
+
+main {
+  display: grid;
+  grid-template-columns: minmax(180px, 220px) auto 280px;
+  /* grid-template-rows: 620px auto auto; */
+
+  padding: 2rem;
+  background: var(--bg-600);
+}
