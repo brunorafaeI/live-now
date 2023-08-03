@@ -2,8 +2,8 @@
   border: 1px solid transparent;
   outline: 2px solid transparent;
   background: transparent;
-  padding: 5px 10px;
-  border-radius: 4px;
+  padding: 5px 12px;
+  border-radius: 6px;
   font-weight: bold;
   cursor: pointer;
   color: var(--terciary);
@@ -13,18 +13,29 @@
   border: 1px solid transparent;
   outline: 2px solid var(--text-span);
   background: transparent;
-  padding: 5px 10px;
-  border-radius: 4px;
+  padding: 5px 12px;
+  border-radius: 6px;
   font-weight: bold;
   cursor: pointer;
-  color: var(--terciary);
+  color: white;
+}
+
+.inactive {
+  color: var(--text-span);
 }
 
 .btn:hover {
   border: 1px solid var(--terciary);
   outline: 2px solid var(--terciary);
   outline-offset: 2px;
-  background: #3284dc35;
+  background: var(--btn-bg-primary);
+}
+
+.inactive:hover {
+  border: 1px solid var(--text-inactive);
+  outline: 2px solid var(--text-inactive);
+  outline-offset: 2px;
+  background: var(--btn-bg-secondary);
 }
 
 .logo {

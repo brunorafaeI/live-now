@@ -8,6 +8,7 @@ aside.menu-left {
 
 div.nav-container {
   position: fixed;
+  min-width: 142px;
   height: 100%;
 }
 

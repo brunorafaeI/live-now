@@ -23,7 +23,11 @@ body {
   --terciary: #3E95EF;
 
   --text-input: #3284dc;
+  --text-inactive: #dc3d32;
   --text-span: #616161;
+
+  --btn-bg-primary: #3284dc35;
+  --btn-bg-secondary: #dc3d3235;
 
   --bg-400: #343638;
   --bg-500: #2e2b2b;
