@@ -63,7 +63,7 @@
   left: 36px;
   bottom: 52px;
   width: 2px;
-  height: calc(100% - 112px);
+  height: calc(100% - 110px);
   background: var(--bg-500);
 }
 
@@ -75,16 +75,6 @@
   bottom: 0;
   width: 100%;
   height: 2px;
-  background: var(--bg-500);
-}
-
-.divider-right::before {
-  position: absolute;
-  content: '';
-  right: 36px;
-  bottom: 52px;
-  width: 2px;
-  height: calc(100% - 112px);
   background: var(--bg-500);
 }
 
